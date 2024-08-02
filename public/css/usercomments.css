@@ -1,0 +1,33 @@
+.userBtn {
+  background: none;
+}
+
+.UserComments {
+  width: 50rem;
+  height: 30rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.5490196078);
+  z-index: 3;
+}
+.UserComments__data {
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+  display: flex;
+}
+.UserComments__data__avatar-box {
+  width: 40%;
+}
+.UserComments__data__avatar-card {
+  width: 100%;
+}
+.UserComments__data__text {
+  width: 60%;
+  padding-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}/*# sourceMappingURL=usercomments.css.map */

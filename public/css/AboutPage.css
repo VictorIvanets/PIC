@@ -1,0 +1,39 @@
+.about {
+  width: calc(100% - 20rem);
+  height: 88vh;
+  background: #e4e4e4;
+  position: relative;
+  padding: 2rem;
+  display: flex;
+  justify-content: flex-end;
+  right: 0;
+}
+.about__header {
+  background: #e4e4e4;
+  width: -moz-max-content;
+  width: max-content;
+  height: 7rem;
+  border-radius: 1rem;
+  position: absolute;
+  top: -5rem;
+  right: 11rem;
+}
+.about__text {
+  width: 50%;
+  padding: 2rem;
+  text-align: justify;
+}
+.about__text_p {
+  margin-bottom: 1rem;
+}
+
+.aboutdarks {
+  background: #333333;
+}
+.aboutdarks__header {
+  background: #333333;
+}
+
+.abouth1dark {
+  color: #f7e96c;
+}/*# sourceMappingURL=AboutPage.css.map */

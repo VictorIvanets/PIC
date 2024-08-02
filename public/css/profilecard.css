@@ -1,0 +1,124 @@
+.profilecardbox {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  position: relative;
+}
+
+.profilecard {
+  width: 100%;
+  height: -moz-max-content;
+  height: max-content;
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.profilecard__info {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  width: 100%;
+  height: 32rem;
+}
+.profilecard__info__text {
+  padding: 2rem;
+  width: 50%;
+}
+.profilecard__foto {
+  width: 20rem;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-right: 2px solid rgba(0, 0, 0, 0.6039215686);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.6039215686);
+}
+.profilecard__data {
+  width: 100%;
+  height: -moz-max-content;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 3rem;
+}
+.profilecard__data__input {
+  width: 100%;
+}
+.profilecard__data__edit {
+  margin: 0 auto;
+  width: 100%;
+  height: -moz-max-content;
+  height: max-content;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+}
+.profilecard__data__btn {
+  margin: 0 auto;
+}
+.profilecard__header {
+  font-size: 2rem;
+}
+.profilecard__btn {
+  margin: 1rem;
+  width: 10rem;
+  height: 4rem;
+  background: #00627a;
+  border-radius: 5px;
+  color: #ffffff;
+  z-index: 6;
+  transition: all 0.1s;
+}
+.profilecard__btn:hover {
+  background: #007997;
+  transition: all 0.1s;
+}
+.profilecard__btn:active {
+  background: #003947;
+  scale: 95%;
+  transition: all 0.1s;
+}
+
+.cancel {
+  background: #00627a;
+}
+.cancel:hover {
+  background: #610000;
+  transition: all 0.1s;
+}
+.cancel:active {
+  background: #2b0000;
+  scale: 95%;
+  transition: all 0.1s;
+}
+
+.save {
+  background: #00627a;
+}
+.save:hover {
+  background: #008800;
+  transition: all 0.1s;
+}
+.save:active {
+  background: #0e2c00;
+  scale: 95%;
+  transition: all 0.1s;
+}
+
+.readonlyinput {
+  opacity: 0.5;
+}
+
+.invaliddata {
+  background: #410000;
+}
+
+.errdatatext {
+  text-align: center;
+}/*# sourceMappingURL=profilecard.css.map */
